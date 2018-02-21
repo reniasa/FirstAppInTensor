@@ -8,4 +8,5 @@ print(sess.run(hello).decode('utf-8'))
 
 a = tf.constant(10)
 b = tf.constant(32)
-print(sess.run(a + b))
+print(sess.run(a + b)) 
+
